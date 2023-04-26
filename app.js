@@ -46,14 +46,7 @@ document.addEventListener("keydown", function(event) {
   }
 });
 
-// Define function to end the game
-function endGame(message) {
-  gameStarted = false;
-  startButton.disabled = false;
-  letterTarget.textContent = "";
-  clearInterval(timerInterval);
-  gameMessage.textContent = message;
-}
+
 
 /*----- functions -----*/
 
@@ -89,3 +82,12 @@ function updateTimer() {
     alert("You lost!")
   }
 }
+
+// Define function to end the game
+function endGame(message) {
+    gameStarted = false;
+    startButton.disabled = false;
+    letterTarget.textContent = "";
+    clearInterval(timerInterval);
+    gameMessage.textContent = message;
+  }
