@@ -39,10 +39,8 @@ document.addEventListener("keydown", function(event) {
       updateScore(false);
     }
     if (score >= 100) {
-      alert("You Won!");
-    } else {
-       
-    }
+      endGame("You Won!");
+    } 
   }
 });
 
@@ -56,6 +54,9 @@ function generateRandomLetter() {
   const randomIndex = Math.floor(Math.random() * alphabet.length);
   return alphabet[randomIndex];
 }
+
+// Define a function to generate a random letter stack
+
 
 // Define function to update the letter target
 function updateLetterTarget() {
@@ -78,8 +79,7 @@ function updateTimer() {
   timeRemaining--;
   timeDisplay.textContent = timeRemaining;
   if (timeRemaining === 0) {
-    endGame();
-    alert("You lost!")
+    endGame("you lost!");
   }
 }
 
