@@ -7,7 +7,10 @@ const gameButton = document.getElementById("gameButton");
 
 
 /*----- state variables -----*/
-
+let score = 0;
+let timeRemaining = 60;
+let gameStart = false;
+let timeInterval; 
 
 
 
