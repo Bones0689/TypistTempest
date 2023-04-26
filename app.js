@@ -12,6 +12,9 @@ let timeRemaining = 60;
 let gameStart = false;
 let timeInterval; 
 
+/*-----event listeners ------*/
+gameButton.addEventListener("click", startGame);
 
 
 /*----- functions -----*/
+
