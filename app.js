@@ -38,6 +38,11 @@ document.addEventListener("keydown", function(event) {
     } else {
       updateScore(false);
     }
+    if (score >= 100) {
+      alert("You Won!");
+    } else {
+       
+    }
   }
 });
 
@@ -80,7 +85,7 @@ function updateTimer() {
   timeRemaining--;
   timeDisplay.textContent = timeRemaining;
   if (timeRemaining === 0) {
-    alert("Stop Typing!");
     endGame();
+    alert("You lost!")
   }
 }
