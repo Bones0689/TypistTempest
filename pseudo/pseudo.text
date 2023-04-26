@@ -1,0 +1,26 @@
+Intended as an immersive skill practice game, Typist Tempest is a fast paced competative typing game meant to be played alongside music to enhance the players trance like state.
+
+
+
+- Add constants to JS file
+- Set Variables 
+- Create a function that will generate a randomn lowercase letter
+- Create a function that will update the letterTarget
+- Define a function that will update the score as the player executes keystrokes
+- add functions that will start and end the game
+- add a function for keydown events
+
+Bonuses if possible
+
+- Make a menu
+- Add numbers
+- Add words
+- Add difficulties
+- Add bonuses
+- Add bonus effects
+- create CPM meter ("Characters Per Minute")
+- create WPM meter ("Words Per Minute")
+- Add Score titles 
+- Add different color scheme options or dark/light mode
+- Add audio
+- Add math version
