@@ -10,7 +10,7 @@ let score = 1;
 let timeRemaining = 60;
 let gameStarted = false;
 let timerInterval;
-
+let previousLetter = '';
 /*----- event listeners -----*/
 
 // Add event listener to start button
@@ -60,9 +60,14 @@ function generateRandomLetter() {
 
 // Define function to update the letter target
 function updateLetterTarget() {
-  const newLetter = generateRandomLetter();
+  let newLetter = previousLetter;
+  while (newLetter === previousLetter) {
+    newLetter = generateRandomLetter();
+  }
+  previousLetter = newLetter;
   letterTarget.textContent = newLetter;
 }
+
 
 // Define function to update the score
 function updateScore(isCorrect) {
