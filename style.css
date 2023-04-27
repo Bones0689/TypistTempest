@@ -1,0 +1,12 @@
+* {
+    color: yellow;
+}
+
+#background {
+    background-image: url('imgs/tempistImg.jpg');
+}
+
+#startButton {
+    background-color: blue;
+    border-color: yellow;
+}
