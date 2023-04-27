@@ -38,7 +38,7 @@ document.addEventListener("keydown", function(event) {
     } else {
       updateScore(false);
     }
-    if (score >= 100) {
+    if (score >= 60) {
       endGame("You Won!");
     } 
   }
