@@ -2,8 +2,17 @@
     color: yellow;
 }
 
+body {
+ height: 100vh;
+}
+
 #background {
     background-image: url('imgs/tempistImg.jpg');
+}
+
+#gameTitle {
+    text-align: center;
+    font-size: 6vh;
 }
 
 #startButton {
