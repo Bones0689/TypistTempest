@@ -36,6 +36,3 @@ Future implements:
 
 wireframe:
 https://excalidraw.com/#json=LshV4XRLIeBKJdOYcGcoe,oejBuhjY49ALcReL83cHxA
-
-![Screenshot from 2023-04-27 23-43-27](https://user-images.githubusercontent.com/123030329/235076492-b3121c12-ade3-4bfa-aba8-a65b0a0ed4ef.png)
-
