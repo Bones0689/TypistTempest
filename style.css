@@ -4,6 +4,7 @@
 
 body {
  height: 100vh;
+ display: flex;
 }
 
 #background {
@@ -16,12 +17,25 @@ body {
 }
 
 #startButton {
-    background-color: blue;
+    background-image:  url('imgs/tempistImg.jpg');
     border-color: yellow;
+    height: 70px;
 }
 
 #gameMessage {
     text-align: center;
-    margin-top: 55vh;
     font-size: 45px;
+}
+
+#letterTarget {
+    text-align: center;
+    font-size: 100px;
+}
+
+#time, #currentTime {
+    font-size: 75px;
+}
+
+#score {
+    font-size: 75px;
 }
