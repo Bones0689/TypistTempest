@@ -40,11 +40,11 @@ document.addEventListener("keydown", function(event) {
     }
     if (score >= 60) {
       endGame("You Won!");
-    } 
+    } else {
+      updateGameMessage();
+    }
   }
 });
-
-
 
 /*----- functions -----*/
 
@@ -55,9 +55,6 @@ function generateRandomLetter() {
   return alphabet[randomIndex];
 }
 
-// Define a function to generate a random letter stack
-
-
 // Define function to update the letter target
 function updateLetterTarget() {
   let newLetter = previousLetter;
@@ -67,7 +64,6 @@ function updateLetterTarget() {
   previousLetter = newLetter;
   letterTarget.textContent = newLetter;
 }
-
 
 // Define function to update the score
 function updateScore(isCorrect) {
@@ -90,13 +86,18 @@ function updateTimer() {
 
 // Define function to end the game
 function endGame(message) {
-    gameStarted = false;
-    startButton.disabled = false;
-    letterTarget.textContent = "";
-    clearInterval(timerInterval);
-    gameMessage.textContent = message;
+  gameStarted = false;
+  startButton.disabled = false;
+  letterTarget.textContent = "";
+  clearInterval(timerInterval);
+  gameMessage.textContent = message;
+}
+
+// Define function to update the game message
+function updateGameMessage() {
+  if (score < 40) {
+    gameMessage.textContent = "Score 40 to win!";
+  } else {
+    gameMessage.textContent = "";
   }
-
-  /*------- Styles -------------*/
-
-  
+}
