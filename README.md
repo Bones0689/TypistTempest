@@ -16,6 +16,9 @@ Link to website:
 
 https://bones0689.github.io/TypistTempest/
 
+![Screenshot from 2023-04-27 23-43-27](https://user-images.githubusercontent.com/123030329/235075352-691f2bd9-6acf-4e7b-a0ab-6b641e2dd192.png)
+
+
 Future implements: 
 
 - Make a menu
@@ -33,4 +36,6 @@ Future implements:
 
 wireframe:
 https://excalidraw.com/#json=LshV4XRLIeBKJdOYcGcoe,oejBuhjY49ALcReL83cHxA
+
+![Screenshot from 2023-04-27 23-43-27](https://user-images.githubusercontent.com/123030329/235076492-b3121c12-ade3-4bfa-aba8-a65b0a0ed4ef.png)
 
