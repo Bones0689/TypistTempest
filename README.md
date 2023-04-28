@@ -30,3 +30,7 @@ Future implements:
 - Add different color scheme options or dark/light mode
 - Add audio
 - Add math version
+
+wireframe:
+https://excalidraw.com/#json=LshV4XRLIeBKJdOYcGcoe,oejBuhjY49ALcReL83cHxA
+
