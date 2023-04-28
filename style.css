@@ -19,3 +19,9 @@ body {
     background-color: blue;
     border-color: yellow;
 }
+
+#gameMessage {
+    text-align: center;
+    margin-top: 55vh;
+    font-size: 45px;
+}
